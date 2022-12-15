@@ -1,0 +1,23 @@
+* {
+	font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+}
+body {
+    font-size: 12px;
+};
+.titular {
+    font-size: 24px;
+};
+.precios {
+    font-size: 18px;
+};
+.descripcion {
+    font-size: 16px;
+};
+.descuentos {
+    font-size: 16px;
+};
+.burger-menu {
+    line-height: 100 solid white;
+    background-color: #03264C;
+};

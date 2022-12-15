@@ -2,10 +2,11 @@ const express = require("express");
 
 const app = express ();             
 
-const path = require("path")           
+const path = require("path");           
+
 
 app.listen(3001, () => {
-    console.log("servidor a las escucha del puerto 3001");
+    console.log("servidor a la escucha del puerto 3001");
 }); 
 
 const publicPath = path.resolve(__dirname, "./Public");
