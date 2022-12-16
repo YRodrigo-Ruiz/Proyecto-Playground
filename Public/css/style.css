@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
 	font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -27,19 +30,16 @@ a {
 .fa-bars {
     background-color: #1259c3;
     color: #ebebeb;
+    border-radius: 10px;
     font-size: 20px;
-    text-align: center;
-    width: 35px;
-    height:35px;
+    margin: auto;
+    padding: 10px;
 }
 .burger-menu {
     text-align: center;
 }
 .cuotas {
     text-align: center;
-}
-footer {
-    background-color: white;
 }
 .sec-h3 {
     color: #666;
