@@ -5,9 +5,8 @@ const app = express ();
 const path = require("path");           
 
 
-app.listen(3001, () => {
-    console.log("servidor a la escucha del puerto 3001");
-}); 
+const port = process.env.PORT || 3001;
+app.listen(port, () => console.log("Servidor a la escucha del puerto ${port}`"));
 
 const publicPath = path.resolve(__dirname, "./Public");
 app.use( express.static(publicPath) );
@@ -23,3 +22,5 @@ app.get("/Registro", (req, res) => {
 app.get("/Login", (req, res) => {
     res.sendFile(path.join(__dirname, "./Views/login.html"));
 });
+
+
