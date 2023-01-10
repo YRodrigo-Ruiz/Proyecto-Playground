@@ -3,101 +3,491 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
-header { 
+
+
+header {
     background-color: #EAC926;
 }
+
 a {
     text-decoration: none;
 }
+
+footer {
+    padding-top: 100px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.searcher {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo,
+.search-bar {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.search-bar {
+    padding-top: 7%;
+}
+
+.search-bar input{
+    height: 30px;
+    width: 31vw;  
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+
+.search-button{
+    font-size: 15px;
+}
+
+.menu-cuotas {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.cuotas {
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1,
+.nav-2 {
+    width: auto;
+    display: none;
+}
+
 .ul-li {
-    padding: 0px;
+    padding: 0px 8px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.titular {
-    font-size: 24px;
+
+.ul-li li {
+    margin: 0px 8px;
 }
-.precios {
-    font-size: 18px;
+
+.burger-menu {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
-.descripcion {
-    font-size: 16px;
-}
-.descuentos {
-    font-size: 16px;
-    color: #39b54a;
-}
+
 .fa-bars {
     background-color: #1259c3;
     color: #ebebeb;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 20px;
     margin: auto;
     padding: 10px;
 }
-.burger-menu {
-    text-align: center;
+
+.main-scale {
+    width: 90%;
+    margin: auto;
 }
-.cuotas {
-    text-align: center;
-}
-.sec-h3 {
+
+.headline {
+    font-size: 24px;
     color: #666;
-    text-align: center;
 }
-.sec-p {
+
+.article {
+    margin: 10px;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.img-scale {
+    width: 100%;
+}
+
+.truck-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.fa-truck {
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+}
+
+.line{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discount-container{
+    width: 70%;
+}
+
+.price-container{ 
+    width: 30%;
+    display: flex;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.discount {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.description {
+    font-size: 16px;
     color: #666;
-    text-align: center;
 }
+
 .i {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
-    color:  #1259c3;
+    color: #1259c3;
 }
-.fa-truck{
-    color: #39b54a;
+
+.sec-h3 {
+    color: #666;
+    text-align: center;
 }
-.img-scale {
+
+.sec-p {
+    color: #666;
+    text-align: center;
+}
+
+/*REGISTER STYLE*/
+
+.data-box {
+    background-color: #e4e0e0;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 85vw;
+    height: 700px;
+    max-width: 490px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forms p,
+h3{
+    padding-top: 20px;
+}
+
+.form-h3 {
+    width: 270px;
+}
+
+.form-data,
+.form-data-radio,
+.checkbox-container {
+    margin-top: -10px;
+}
+
+.form-data-radio {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-container label input {
+    width: 40px;
+    margin-left: -30px;
+}
+
+.file-container input {
+    margin-top: -5px;
+}
+
+.data-item1,
+.data-item2,
+.data-item,
+.data-item-button,
+.data-item-button2 {
+    height: 25px;
+    width: 220px;
+    margin-top: 10px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+}
+
+.button-container {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-item-button,
+.data-item-button2 {
+    width: 70px;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: white;
+}
+
+/*LOGIN STYLE*/
+
+.data-box-login {
+    background-color: #e4e0e0;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 85vw;
+    height: 200px;
+}
+
+.data-item1,
+.data-item2,
+.data-item-button2{
     width: 70vw;
-}
-.main-scale {
-    width: 90%;
-}
-.articulo {
-    margin: 10px;
-    border: 1px solid #ebebeb;
-    padding:15px;
-}
-.nav-1{
-    display: none;
+    max-width: 450px;
 }
 
 
-@media (min-width: 361px){
+@media (min-width: 361px) {
+
     /*TABLET*/
-    .articulo{
+    body {
+    background-color: #ebebeb;
+    }
+
+    .logo,
+    .search-bar,
+    .menu-cuotas{
+        width: 33%;
+    }
+
+    .logo {
+        padding-top: 2vh;
+    }
+
+    .search-bar {
+        margin-top: -10px;
+    }
+
+    .search-bar input {
+        width: 25vw;
+        margin-left: 5px;
+        height: 20px;
+    }
+    .menu-cuotas{
+        padding-top: 3vw;
+        padding-left: 10px;
+    }
+    
+    .article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .nav-li{
+
+    .nav-bar {
+        padding-bottom: 10px;
+    }
+
+    .nav-1,
+    .nav-2 {
         display: block;
     }
-    .burger-menu{
+
+    .burger-menu {
         display: none;
     }
+
+    .img-scale {
+        width: 100%
+    }
+    
+    .article-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .headline{
+        width: 100%;
+    }
+
+    .article-container{
+        width: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .price,
+    .discount,
+    .description{
+        font-size: 100%;
+    }
+
+    .discount-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    /*REGISTER STYLE*/
+    .data-box {
+        border-radius: 20px;
+        margin-top: 3vh;
+        padding-top: 10px;
+    }
+
+    /*LOGIN STYLE*/
+    .data-box-login {
+        border-radius: 20px;
+        max-width: 490px;
+        margin-top: 3vh;
+        padding-top: 10px;
+    }
 }
-@media (min-width: 769px){
+
+@media (min-width: 769px) {
+
     /*DESKTOP*/
-    .articulo{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    .cuotas{
+        padding-top: 1vw;
     }
-    .nav-li{
+
+    .logo,
+    .search-bar,
+    .menu-cuotas{
+        width: 33%;
+    }
+
+    .search-bar{
+        padding-left: 30px;
+        margin-top: -20px;
+    }
+    .search-bar input{
+        width: 25vw;
+        height: 20px;
+    }
+
+    .nav-1,
+    .nav-2 {
         display: block;
+        padding-top: 10px;
     }
-    .burger-menu{
+
+    .ul-li li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .burger-menu {
         display: none;
     }
+
+    .article-container{
+        width: 25%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .article {
+        box-shadow: none
+    }
+
+    .article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .description {
+        opacity: 0;
+    }
+
+    .description:hover {
+        opacity: 1;
+    }
+
+    .fa-truck:hover {
+        transform: rotateZ(-90deg);
+        transition: 900ms;
+    }
+
+    .fa-user-shield:hover,
+    .fa-gift:hover,
+    .fa-credit-card:hover {
+        color: #7825af;
+        transition: 600ms;
+    }
+
+    .footer-box {
+        display: flex;
+    }
+
+    .sec-p4{
+        margin: 20px 0px 15px 15px;
+    }
+
+    .footer-box section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*LOGIN STYLE*/
+    .data-item-button2:hover {
+        background-color: #0022AA;
+    }
+    
+    /*REGISTER STYLE*/
+    .data-item-button:hover {
+        background-color: #0022AA;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
