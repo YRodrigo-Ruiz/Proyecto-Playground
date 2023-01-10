@@ -15,11 +15,11 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "./Views/index.html"));
 });
 
-app.get("/Registro", (req, res) => {
+app.get("/registro", (req, res) => {
     res.sendFile(path.join(__dirname, "./Views/register.html"));
 });
 
-app.get("/Login", (req, res) => {
+app.get("/login", (req, res) => {
     res.sendFile(path.join(__dirname, "./Views/login.html"));
 });
 
