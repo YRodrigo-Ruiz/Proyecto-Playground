@@ -367,6 +367,7 @@ h3{
         border-radius: 20px;
         margin-top: 3vh;
         padding-top: 10px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     /*LOGIN STYLE*/
@@ -375,6 +376,7 @@ h3{
         max-width: 490px;
         margin-top: 3vh;
         padding-top: 10px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
 
